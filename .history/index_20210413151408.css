@@ -1,0 +1,48 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+.demo {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  background: url('images/background.jfif') no-repeat;
+  background-size: 100% 100%;
+}
+
+.demo1 {
+  position: relative;
+  width: calc((100% - 30px) / 4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: scale-down;
+}
+
+.trans {
+  position:absolute;
+  top: 98px;
+  width: 69%;
+  padding: 27px 20px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.6;
+  background-image: linear-gradient(to right,#a3bdb2,#37b9e9);
+}
+.trans p{
+  position: absolute;
+  top: 10px;
+  color: #fff;
+}
+.trans h4{
+  position: absolute;
+  top: -20px;
+  color: #fff;
+}

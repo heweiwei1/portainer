@@ -1,0 +1,11 @@
+.demo {
+  text-align: center;
+  display: flex;
+}
+ul {
+  list-style-type: none;
+}
+.demo1 {
+  width: 25%;
+  font-size: 14px;
+}

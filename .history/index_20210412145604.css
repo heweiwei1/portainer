@@ -1,0 +1,16 @@
+.demo {
+  width: 500px;
+  padding-top: 20px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  /* flex-flow: column wrap; */
+}
+.demo1 {
+  display: inline-block;
+  background: url('images/npm.png') no-repeat;
+  background-size: 100%;
+  width: calc(100%/4 - 20px);
+  margin-bottom: 10px;
+  height: 90px;
+}

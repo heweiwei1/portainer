@@ -1,0 +1,24 @@
+.demo {
+  width: 500px;
+  padding-top: 20px;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 8px;
+}
+.demo1 {
+  display: inline-block;
+  background: url('images/npm.png') no-repeat;
+  background-size: 100%;
+  width: calc((100% - 30px) / 4);
+  height: 90px;
+  margin-bottom: 10px;
+}
+.demo1:not(:nth-child(4n)){
+  margin-right: 10px;
+}
+.demo1 p {
+  /* font-size: 6px; */
+  margin-bottom: 50px;
+  white-space: nowrap;
+}

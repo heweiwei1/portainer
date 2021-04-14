@@ -1,0 +1,87 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+.demo {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+}
+
+.demo a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 12vw;
+  height: 6.75vw;
+  margin-top: 20px;
+  font-size: 10px;
+}
+.demo a:not(:nth-child(4n)){
+  margin-right: 3vw;
+}
+.trans {
+  position:absolute;
+  top: 49.8px;
+  width: 1005;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.6;
+}
+.demo1:hover .trans{
+  opacity: 1;
+}
+.demo1 {
+  opacity: 0.8;
+}
+.trans p{
+  position: absolute;
+  top: 24px;
+  color: #fff;
+}
+.trans h4{
+  position: absolute;
+  top: -3px;
+  color: #fff;
+}
+.demo-1 {
+  background-image: linear-gradient(to bottom right,#8b0000,#ff0000);
+
+}
+.demo-1 .trans{
+  background-image: linear-gradient(to top left,#8b0000,#ff0000);
+}
+.demo-2 {
+  background-image: linear-gradient(to bottom right,#ff8c00,#f5deb3);
+}
+.demo-2 .trans{
+  background-image: linear-gradient(to top left,#ff8c00,#f5deb3);
+}
+.demo-3 {
+  background-image: linear-gradient(to bottom right,#ff69b4,#ffb6c1);
+}
+.demo-3 .trans{
+  background-image: linear-gradient(to top left,#ff69b4,#ffb6c1);
+}
+.demo-4 {
+  background-image: linear-gradient(to bottom right,#008080,#00ffff);
+}
+.demo-4 .trans{
+  background-image: linear-gradient(to top left,#008080,#00ffff);
+}
+.demo-5 {
+  background-image: linear-gradient(to bottom right,#0000cd,#87cefa);
+}
+.demo-5 .trans{
+  background-image: linear-gradient(to top left,#0000cd,#87cefa);
+}
+.demo-6 {
+  background-image: linear-gradient(to bottom right,#800080,#ff69b4);
+}
+.demo-6 .trans{
+  background-image: linear-gradient(to top left,#800080,#ff69b4);
+}

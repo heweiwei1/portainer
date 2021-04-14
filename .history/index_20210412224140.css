@@ -1,0 +1,56 @@
+/* .demo {
+  width: 100%;
+  padding-top: 20px;
+  margin: auto;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.demo1 {
+  display: flex;
+  flex-direction: column wrap;
+  justify-content: center;
+  height: 250px;
+  width: calc((100% - 30px) / 4);
+  margin-bottom: 10px;
+}
+.demo1:not(:nth-child(4n)){
+  margin-right: 10px;
+}
+.demo1 h4,
+.demo1 p {
+  position: absolute;
+  font-size: 10px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.demo1 h4 {
+  top: -7px;
+}
+.demo1 p {
+  bottom: 0px;
+}
+.demo1 img {
+  width: 100%;
+}
+.demo1:hover {
+  opacity: 0.8;
+} */
+
+
+
+.demo {
+
+}
+
+img {
+  width: 140px;
+  height: 80px;
+}

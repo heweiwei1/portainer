@@ -1,0 +1,10 @@
+.demo {
+  width: 500px;
+  text-align: center;
+  margin: 10px;
+  column-count: 4;
+  column-gap: 10px;
+}
+.demo1 {
+  /* background: url('images/npm.png') no-repeat center; */
+}

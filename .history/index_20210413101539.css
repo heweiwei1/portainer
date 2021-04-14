@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+.demo {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.demo1 {
+  position: relative;
+  width: calc((100% - 30px) / 4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.demo1 h4 {
+  position: absolute;
+  top: -15px;
+}
+.demo1 p {
+  position: absolute;
+  bottom: -11px;
+}
+
+img {
+  width: 100%;
+  object-fit: scale-down;
+}
+.trans-h4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.trans-p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

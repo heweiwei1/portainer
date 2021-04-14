@@ -1,0 +1,91 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+body {
+  background: url('images/5.jpeg') no-repeat;
+  background-size: 100% auto;
+  /* background-origin: padding-box; */
+}
+.demo {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.demo a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc((100% - 120px) / 4);
+  height: 159.59px;
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+.demo a:not(:nth-child(4n)){
+  margin-right: 40px;
+}
+.trans {
+  position:absolute;
+  top: 49.8px;
+  width: 119.59px;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+  /* opacity: 0.6; */
+}
+.trans p{
+  position: absolute;
+  top: 24px;
+  color: #fff;
+}
+.trans h4{
+  position: absolute;
+  top: -3px;
+  color: #fff;
+}
+.demo-1 {
+  /* background-image: linear-gradient(to bottom right,#8b0000,#ff0000); */
+  background: url('images/1.jpeg') no-repeat;
+
+}
+.demo-1 .trans{
+  background-image: linear-gradient(to top left,#8b0000,#ff0000);
+}
+.demo-2 {
+  /* background-image: linear-gradient(to bottom right,#ff8c00,#f5deb3); */
+  background: url('images/1.jpeg') no-repeat;
+}
+.demo-2 .trans{
+  background-image: linear-gradient(to top left,#ff8c00,#f5deb3);
+}
+.demo-3 {
+  /* background-image: linear-gradient(to bottom right,#006400,#00ff00); */
+  background: url('images/1.jpeg') no-repeat;
+}
+.demo-3 .trans{
+  background-image: linear-gradient(to top left,#006400,#00ff00);
+}
+.demo-4 {
+  /* background-image: linear-gradient(to bottom right,#008080,#00ffff); */
+  background: url('images/1.jpeg') no-repeat;
+}
+.demo-4 .trans{
+  background-image: linear-gradient(to top left,#008080,#00ffff);
+}
+.demo-5 {
+  /* background-image: linear-gradient(to bottom right,#0000cd,#87cefa); */
+  background: url('images/1.jpeg') no-repeat;
+}
+.demo-5 .trans{
+  background-image: linear-gradient(to top left,#0000cd,#87cefa);
+}
+.demo-6 {
+  /* background-image: linear-gradient(to bottom right,#800080,#ff69b4); */
+  background: url('images/1.jpeg') no-repeat;
+}
+.demo-6 .trans{
+  background-image: linear-gradient(to top left,#800080,#ff69b4);
+}

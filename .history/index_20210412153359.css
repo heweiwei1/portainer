@@ -1,0 +1,24 @@
+.demo {
+  width: 600px;
+  padding-top: 20px;
+  margin: auto;
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+.demo1 {
+  background: url('images/npm.png') no-repeat;
+  background-size: 100%;
+  width: calc((100% - 30px) / 4);
+  margin-bottom: 10px;
+}
+.demo1:not(:nth-child(4n)){
+  margin-right: 10px;
+}
+.demo1 p {
+  font-size: 6px;
+  text-align: center;
+  margin-bottom: 100px;
+  white-space: nowrap;
+}

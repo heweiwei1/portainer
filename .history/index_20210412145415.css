@@ -1,0 +1,18 @@
+.demo {
+  width: 500px;
+  padding-top: 20px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+.demo1 {
+  display: inline-block;
+  background: url('images/npm.png') no-repeat;
+  background-size: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 90px;
+}
+.demo1 p {
+  font-size: 8px;
+}

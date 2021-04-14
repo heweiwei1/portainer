@@ -1,0 +1,9 @@
+.demo {
+  text-align: center;
+  margin: 10px;
+  column-count: 4;
+  column-gap: 10px;
+}
+.demo1 {
+  margin-bottom: 10px;
+}

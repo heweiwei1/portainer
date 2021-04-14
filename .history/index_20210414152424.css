@@ -1,0 +1,82 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+.demo {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+.box {
+  width: calc((100% - 120px) / 4);
+  opacity: 0.8;
+}
+.box:not([not-allowed]):hover,
+.box:not([not-allowed]):hover .trans {
+  opacity: 1;
+}
+
+.box:hover a {
+  box-shadow: 2px 2px 3px #888;
+}
+
+.demo .box:not(:nth-child(4n)){
+  margin-right: 40px;
+}
+
+.demo a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 0px;
+  padding-bottom: 56.25%;
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+.trans {
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: calc(100% - 40px);
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.6;
+}
+
+.trans p{
+  position: absolute;
+  top: 24px;
+  color: #fff;
+}
+.trans h4{
+  position: absolute;
+  top: -3px;
+  color: #fff;
+}
+.demo-1 {
+  filter: grayscale(100%);
+  background-image: linear-gradient(to bottom right,#ff8c00,#f5deb3);
+}
+.demo-2 {
+  background-image: linear-gradient(to bottom right,#8b0000,#ff0000);
+}
+.demo-3 {
+  background-image: linear-gradient(to bottom right,#ff69b4,#ffb6c1);
+}
+.demo-4 {
+  background-image: linear-gradient(to bottom right,#008080,#00ffff);
+}
+.demo-5 {
+  background-image: linear-gradient(to bottom right,#0000cd,#87cefa);
+}
+.demo-6 {
+  background-image: linear-gradient(to bottom right,#800080,#ff69b4);
+}
+.box .trans {
+  background: rgba(255, 255, 255, .25);
+}
